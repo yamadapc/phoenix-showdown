@@ -12,5 +12,4 @@ executable benchmarker
                      , lucid
   hs-source-dirs:      src
   default-language:    Haskell2010
-  ghc-options: -O2 -threaded
-  -- -fllvm
+  ghc-options: -O2 -threaded -fllvm
